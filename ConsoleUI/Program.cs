@@ -26,11 +26,11 @@ static void ProductTest()
 
 }
 
-static void CategoryTest()
-{
-    CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
-    foreach (var category in categoryManager.GetAll())
-    {
-        Console.WriteLine(category.CategoryName);
-    }
-}
+//static void CategoryTest()
+//{
+//    CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+//    foreach (var category in categoryManager.GetAll())
+//    {
+//        Console.WriteLine(category.CategoryName);
+//    }
+//}
